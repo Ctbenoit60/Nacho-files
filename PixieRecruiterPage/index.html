@@ -9,24 +9,19 @@
             <img src="NoFunPixie.jpeg" alt="No Fun Pixes" height=200 width=200 class="center">
         </div>
         <p>Come join our fun company. We put the fun in functional. Buy our book that tells you how!</p>
-        <button onclick="helloWorld()">Buy Book</button>
-                    <script>
-                    function helloWorld(){
-                    alert('Hello World!')
-                    }
-                    </script>
+        <button id="myButton" >Buy Book</button>
+
+            <script type="text/javascript">
+                document.getElementById("myButton").onclick = function () {
+                    location.href = "PixieRecruiterPage/BookOrder.html";
+                };
+            </script> 
         <div>
             <img src="https://www.perkins.org/wp-content/uploads/2022/07/Amazon_2.png" alt="fun chart" height=200 width=200>
-            <p>As you can see, the data collected from our team show a stead increase of fun. These results are were not a result of bribery despite the rumors.</p>
+            <p>As you can see, the data collected from our team show a stead increase of fun. The results depicted in this chart were derived independently and without any involvement of bribery, irrespective of any assertions to the contrary. It is essential to clarify that these outcomes stand on their own merits and are not contingent upon the opinions or allegations made by third parties.</p>
         </div>
 
             <section>
-                <nav>
-                <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Articles</a></li>
-                </ul>
-                </nav>
                 <article>
                 <h2>Corperate Responsibility</h2>
                 <p>What is corporate responsibility? Corporate responsibility (CR), also known as corporate social responsibility (CSR) or business sustainability, is about the ethics which drive an organisation's activities and how it operates so that it's viable over the long term.</p>
